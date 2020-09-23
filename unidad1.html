@@ -15,8 +15,11 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
@@ -29,7 +32,9 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -60,7 +65,8 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
             <h1>UNIDAD 1 BASES DE DATOS PARA APLICACIONES MÓVILES</h1>
-            <h2 class="subheading">comprender y aplicar el esquema general de la base de datos para dispositivos móviles, así como también conocer las ventajas y desventajas de estas tecnologías.</h2>
+            <h2 class="subheading">comprender y aplicar el esquema general de la base de datos para dispositivos
+              móviles, así como también conocer las ventajas y desventajas de estas tecnologías.</h2>
           </div>
         </div>
       </div>
@@ -72,77 +78,141 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Cada vez más aplicaciones móviles necesitan datos para funcionar, y las bases de datos han sido durante bastante tiempo la forma más común de almacenar y administrar datos.</p>
-          <p>La base de datos es la forma más común de almacenar y administrar datos. Desde hace bastante tiempo, las bases de datos se manejan en el lado del servidor o en la nube y los dispositivos móviles solo se comunican con ellos a través de la red.</p>
-          <p>Sin embargo, para hacer que las aplicaciones sean más receptivas y menos dependientes de la conectividad de la red, la tendencia del uso fuera de línea o la menor dependencia de la red está ganando popularidad.</p>
-          <p>Hoy en día, las aplicaciones mantienen la base de datos localmente o hacen una copia de DB en la nube en el dispositivo local y se sincronizan con ella una vez al día o cada vez que hay una conectividad de red. Esto ayudará en aplicaciones más rápidas y receptivas que son funcionales incluso cuando no hay conectividad a Internet o es limitada.</p>
-          <blockquote class="blockquote">Bases de Datos para Android. (s. f.). Tecnologias Informacion. Recuperado 21 de septiembre de 2020, de https://www.tecnologias-informacion.com/basedatosandroid.html</blockquote>
-          
+          <p>Cada vez más aplicaciones móviles necesitan datos para funcionar, y las bases de datos han sido durante
+            bastante tiempo la forma más común de almacenar y administrar datos.</p>
+          <p>La base de datos es la forma más común de almacenar y administrar datos. Desde hace bastante tiempo, las
+            bases de datos se manejan en el lado del servidor o en la nube y los dispositivos móviles solo se comunican
+            con ellos a través de la red.</p>
+          <p>Sin embargo, para hacer que las aplicaciones sean más receptivas y menos dependientes de la conectividad de
+            la red, la tendencia del uso fuera de línea o la menor dependencia de la red está ganando popularidad.</p>
+          <p>Hoy en día, las aplicaciones mantienen la base de datos localmente o hacen una copia de DB en la nube en el
+            dispositivo local y se sincronizan con ella una vez al día o cada vez que hay una conectividad de red. Esto
+            ayudará en aplicaciones más rápidas y receptivas que son funcionales incluso cuando no hay conectividad a
+            Internet o es limitada.</p>
+          <blockquote class="blockquote">Bases de Datos para Android. (s. f.). Tecnologias Informacion. Recuperado 21 de
+            septiembre de 2020, de https://www.tecnologias-informacion.com/basedatosandroid.html</blockquote>
+
           <h2 class="section-heading">1.1 Arquitectura de una base de datos móvil</h2>
           <a href="#">
             <img class="img-fluid" src="src/estructura.jpg" alt="">
           </a>
-          <p>Si nos fijamos en la figura anterior, podemos observar dónde reside la complejidad de este tipo de sistemas que coinciden con las partes no comunes con respecto a las bases de datos tradicionales. Nos referimos al sistema gestor de base de datos móvil (SMBD móvil) y al enlace de comunicaciones. En una base de datos móvil, la comunicación entre los dispositivos es una parte importante, ya que es imprescindible una buena comunicación para el acceso a los datos. La arquitectura de comunicaciones más utilizada consiste en tener una o varias estaciones base en contacto con la base de datos corporativa y una serie de estaciones móviles que acceden a los datos a través de las estaciones base. Por tanto podemos encontrarnos con alguna cuestión importante relacionada con el acceso o la localización, como puede ser localizar una estación móvil que contenga los datos que necesitamos en un momento determinado. Para solucionar dicho problema existen varias soluciones propuestas, por ejemplo, que cada estación móvil esté asociada a una estación base principal la cuál conoce en todo momento la localización de la estación móvil debido a que la principal reciba notificaciones de los movimientos de la estación móvil.</p>
-          <blockquote class="blockquote">(Elmasri, R. y Navathe, S. B. (2000): “Fundamentals of Database Systems”. 3ª ed. Addison & Wesley, Reading, MA.)</blockquote>
+          <p>Si nos fijamos en la figura anterior, podemos observar dónde reside la complejidad de este tipo de sistemas
+            que coinciden con las partes no comunes con respecto a las bases de datos tradicionales. Nos referimos al
+            sistema gestor de base de datos móvil (SMBD móvil) y al enlace de comunicaciones. En una base de datos
+            móvil, la comunicación entre los dispositivos es una parte importante, ya que es imprescindible una buena
+            comunicación para el acceso a los datos. La arquitectura de comunicaciones más utilizada consiste en tener
+            una o varias estaciones base en contacto con la base de datos corporativa y una serie de estaciones móviles
+            que acceden a los datos a través de las estaciones base. Por tanto podemos encontrarnos con alguna cuestión
+            importante relacionada con el acceso o la localización, como puede ser localizar una estación móvil que
+            contenga los datos que necesitamos en un momento determinado. Para solucionar dicho problema existen varias
+            soluciones propuestas, por ejemplo, que cada estación móvil esté asociada a una estación base principal la
+            cuál conoce en todo momento la localización de la estación móvil debido a que la principal reciba
+            notificaciones de los movimientos de la estación móvil.</p>
+          <blockquote class="blockquote">(Elmasri, R. y Navathe, S. B. (2000): “Fundamentals of Database Systems”. 3ª
+            ed. Addison & Wesley, Reading, MA.)</blockquote>
 
           <h2 class="section-heading">1.2 Elementos clave para el diseño de una base de datos móvil</h2>
           <h3>Concepto y Objetivos </h3>
-          <p>Como se ha comentado anteriormente, cuando los datos de un sistema de información se almacenan en una única estructura, se llama base de datos. Una base de datos es una colección de datos almacenados en un soporte informático permanente de forma que sea posible obtener la relación entre los datos a través de un esquema conceptual que oculte la física real de los datos. El objetivo es que las aplicaciones puedan acceder a los datos sin necesidad de conocer exactamente cómo están almacenados los datos. Esto se consigue con un esquema conocido como esquema conceptual. Cualquier desarrollador que conozca ese esquema puede acceder a los datos desde cualquier aplicación.</p>
+          <p>Como se ha comentado anteriormente, cuando los datos de un sistema de información se almacenan en una única
+            estructura, se llama base de datos. Una base de datos es una colección de datos almacenados en un soporte
+            informático permanente de forma que sea posible obtener la relación entre los datos a través de un esquema
+            conceptual que oculte la física real de los datos. El objetivo es que las aplicaciones puedan acceder a los
+            datos sin necesidad de conocer exactamente cómo están almacenados los datos. Esto se consigue con un esquema
+            conocido como esquema conceptual. Cualquier desarrollador que conozca ese esquema puede acceder a los datos
+            desde cualquier aplicación.</p>
           <h3>Elementos de un sistema de base de datos</h3>
-          <p>Los elementos de un sistema de base de datos son los mismos que los de un sistema de información. Se comentan a continuación para concretar un poco más la información que ya poseíamos</p>´
+          <p>Los elementos de un sistema de base de datos son los mismos que los de un sistema de información. Se
+            comentan a continuación para concretar un poco más la información que ya poseíamos</p>´
           <ul>
-            <li>Hardware. Máquinas en las que se almacenan las bases de datos. Incorporan unidades de almacenamiento masivo para este fin</li>
-            <li>Software. Es el sistema gestor de bases de datos. La aplicación que permite el manejo de la base de datos.</li>
-            <li>Datos. Incluyen los datos que se necesitan almacenar y los metadatos que son datos que sirven para describir lo que se almacena en la base de datos.</li>
+            <li>Hardware. Máquinas en las que se almacenan las bases de datos. Incorporan unidades de almacenamiento
+              masivo para este fin</li>
+            <li>Software. Es el sistema gestor de bases de datos. La aplicación que permite el manejo de la base de
+              datos.</li>
+            <li>Datos. Incluyen los datos que se necesitan almacenar y los metadatos que son datos que sirven para
+              describir lo que se almacena en la base de datos.</li>
             <li>Usuarios. Personas que manipulan los datos del sistema.</li>
           </ul>
           <p>Hay tres categorías:</p>
           <ul>
-            <li>Usuarios finales. Aquellos que utilizan datos de la base de datos para su trabajo cotidiano que no tiene por qué tener que ver con la informática. Normalmente no utilizan la base de datos directamente, sino que utilizan aplicaciones creadas para ellos a fin de facilitar la manipulación de los datos. Estos usuarios sólo acceden a ciertos datos.</li>
-            <li>Desarrolladores. Analistas y programadores encargados de generar aplicaciones para los usuarios finales.</li>
-            <li>Administradores. También llamados DBA (Data Base Administrator), se encargan de gestionar las bases de datos.</li>
+            <li>Usuarios finales. Aquellos que utilizan datos de la base de datos para su trabajo cotidiano que no tiene
+              por qué tener que ver con la informática. Normalmente no utilizan la base de datos directamente, sino que
+              utilizan aplicaciones creadas para ellos a fin de facilitar la manipulación de los datos. Estos usuarios
+              sólo acceden a ciertos datos.</li>
+            <li>Desarrolladores. Analistas y programadores encargados de generar aplicaciones para los usuarios finales.
+            </li>
+            <li>Administradores. También llamados DBA (Data Base Administrator), se encargan de gestionar las bases de
+              datos.</li>
           </ul>
-          <p>Hay que tener en cuenta que las necesidades de los usuarios son muy diferentes en función del tipo de usuario que sean: a los finales les interesa la facilidad de uso, a los desarrolladores la potencia y flexibilidad de los lenguajes incorporados del sistema de bases de datos, a los administradores herramientas de gestión avanzada para la base de datos.</p>
+          <p>Hay que tener en cuenta que las necesidades de los usuarios son muy diferentes en función del tipo de
+            usuario que sean: a los finales les interesa la facilidad de uso, a los desarrolladores la potencia y
+            flexibilidad de los lenguajes incorporados del sistema de bases de datos, a los administradores herramientas
+            de gestión avanzada para la base de datos.</p>
           <a href="#">
             <img class="img-fluid" src="src/basedatosmovil.jpg" alt="">
           </a>
-          <span class="caption text-muted">Las bases de datos están compuestas (como ya se han comentado), de datos y de metadatos. Los metadatos son datos (valga la redundancia) que sirven para especificar la estructura de la base de datos; por ejemplo, qué tipo de datos se almacenan (si son texto o números o fechas), qué nombre se le da a cada dato (nombre, apellidos), cómo están agrupados, cómo se relacionan.</span>
+          <span class="caption text-muted">Las bases de datos están compuestas (como ya se han comentado), de datos y de
+            metadatos. Los metadatos son datos (valga la redundancia) que sirven para especificar la estructura de la
+            base de datos; por ejemplo, qué tipo de datos se almacenan (si son texto o números o fechas), qué nombre se
+            le da a cada dato (nombre, apellidos), cómo están agrupados, cómo se relacionan.</span>
           <p>De este modo se producen dos visiones de la base de datos:</p>
           <ul>
-            <li>Estructura lógica o conceptual. Indica la composición y distribución teórica de la base de datos. La estructura lógica sirve para que las aplicaciones puedan utilizar los elementos de la base de datos sin saber realmente cómo se están almacenando.</li>
-            <li>Estructura física. Es la estructura de los datos tan cual se almacenan en las unidades de disco. La correspondencia entre la estructura lógica y la física se almacena en la base de datos (en los metadatos).</li>
+            <li>Estructura lógica o conceptual. Indica la composición y distribución teórica de la base de datos. La
+              estructura lógica sirve para que las aplicaciones puedan utilizar los elementos de la base de datos sin
+              saber realmente cómo se están almacenando.</li>
+            <li>Estructura física. Es la estructura de los datos tan cual se almacenan en las unidades de disco. La
+              correspondencia entre la estructura lógica y la física se almacena en la base de datos (en los metadatos).
+            </li>
           </ul>
-          <blockquote class="blockquote">Sofia, J. V. (2009). Sistemas de BD en Dispositivos Móviles y su Integración con las BD Tradicionales. Obtenido de http://exa.unne.edu.ar/informatica/SO/DM-SofiaVallejos-DAD.pdf</blockquote>
-          
+          <blockquote class="blockquote">Sofia, J. V. (2009). Sistemas de BD en Dispositivos Móviles y su Integración
+            con las BD Tradicionales. Obtenido de http://exa.unne.edu.ar/informatica/SO/DM-SofiaVallejos-DAD.pdf
+          </blockquote>
+
           <h2 class="section-heading">1.3 Gestión de bases de datos para móviles</h2>
-          <p>Los móviles son capaces de informarse con los principales SGBD relacionales. Estos SGBD móviles son los que se adaptan a expedientes unidades móviles que proporcionan muchas funcionalidades:</p>
+          <p>Los móviles son capaces de informarse con los principales SGBD relacionales. Estos SGBD móviles son los que
+            se adaptan a expedientes unidades móviles que proporcionan muchas funcionalidades:</p>
           <ul>
             <li>Realizan la Información con el servidor centralizado de base de datos con información inalámbrica</li>
-            <li>Replicación de fundamentos hacia el servidor centralizado de base de datos en los dispositivos móvil</li>
+            <li>Replicación de fundamentos hacia el servidor centralizado de base de datos en los dispositivos móvil
+            </li>
             <li>Gestión de datos en el dispositivo móvil. </li>
-            <li>Comparación de informes acopiados en el dispositivo móvil. COMPONENTES DE UN ENTORNO DE UNA BASE DE DATOS MOVIL </li>
-            <li>Servidor de base de datos corporativo y SGBD que gestiona y almacena los datos corporativos y proporciona aplicaciones corporativas. </li>
+            <li>Comparación de informes acopiados en el dispositivo móvil. COMPONENTES DE UN ENTORNO DE UNA BASE DE
+              DATOS MOVIL </li>
+            <li>Servidor de base de datos corporativo y SGBD que gestiona y almacena los datos corporativos y
+              proporciona aplicaciones corporativas. </li>
             <li>Base de datos remota y SGBD que gestiona y almacena los datos móviles</li>
           </ul>
           <h3>FUNCIONALIDADES DE LOS SGBD MÓVILES</h3>
           <ul>
-            <li>Comunicarse con el servidor centralizado de base de datos utilizando técnicas tales como la comunicación inalámbrica o el acceso a Internet. </li>
+            <li>Comunicarse con el servidor centralizado de base de datos utilizando técnicas tales como la comunicación
+              inalámbrica o el acceso a Internet. </li>
             <li>Replicar los datos en el servidor de base de datos centralizado y en el dispositivo móvil</li>
             <li>Sincronizar los datos del servidor de base de datos centralizado y del dispositivo móvil. </li>
             <li>Capturar datos de varias fuentes, como por ejemplo, de Internet. </li>
             <li>Gestionar los datos en el dispositivo móvil. </li>
             <li>Analizar los datos almacenados en un dispositivo móvil. </li>
             <li>Crear aplicaciones móviles personalizadas. SMBD Moviles </li>
-            <li>Ademas de las características de un SGDB tradicional debe incluir y/o permitir:  </li>
+            <li>Ademas de las características de un SGDB tradicional debe incluir y/o permitir: </li>
             <li>Comunicación con el servidor centralizado de BD usando redes inalámbricas y acceso a Internet</li>
             <li>Replicar los datos en servidor central y móvil. </li>
             <li>Sincronizacion de datos entre servidor y móvil.</li>
           </ul>
           <h3>Algunos SMBD Moviles</h3>
-          <p>El SQL es un lenguaje de acceso a bases de datos que explota la flexibilidad y potencia de los sistemas relacionales y permite así gran variedad de operaciones.  Es un lenguaje declarativo de "alto nivel" o "de no procedimiento" que, gracias a su fuerte base teórica y su orientación al manejo de conjuntos de registros —y no a registros individuales— permite una alta productividad en codificación y la orientación a objetos. De esta forma, una sola sentencia puede equivaler a uno o más programas que se utilizarían en un lenguaje de bajo nivel orientado a registros. SQL también tiene las siguientes características: Lenguaje de definición de datos</p>
-          <p>El LDD de SQL proporciona comandos para la definición de esquemas de relación, borrado de relaciones y modificaciones de los esquemas de relación.</p>
-          <p>Lenguaje interactivo de manipulación de datos: El LMD de SQL incluye lenguajes de consultas basado tanto en álgebra relacional como en cálculo relacional de tuplas.Integridad: El LDD de SQL incluye comandos para especificar las restricciones de integridad que deben cumplir los datos almacenados en la base de datos. Definición de vistas: El LDD incluye comandos para definir las vistas. Control de transacciones: SQL tiene comandos para especificar el comienzo y el final de una transacción.</p>
-          <blockquote class="blockquote">Sofia J. Vallejos. (2009). Sistemas de BD en Dispositivos Móviles y su Integración con las BD Tradicionales. Corrientes - Argentina: RA-MA.</blockquote>
+          <p>El SQL es un lenguaje de acceso a bases de datos que explota la flexibilidad y potencia de los sistemas
+            relacionales y permite así gran variedad de operaciones. Es un lenguaje declarativo de "alto nivel" o "de no
+            procedimiento" que, gracias a su fuerte base teórica y su orientación al manejo de conjuntos de registros —y
+            no a registros individuales— permite una alta productividad en codificación y la orientación a objetos. De
+            esta forma, una sola sentencia puede equivaler a uno o más programas que se utilizarían en un lenguaje de
+            bajo nivel orientado a registros. SQL también tiene las siguientes características: Lenguaje de definición
+            de datos</p>
+          <p>El LDD de SQL proporciona comandos para la definición de esquemas de relación, borrado de relaciones y
+            modificaciones de los esquemas de relación.</p>
+          <p>Lenguaje interactivo de manipulación de datos: El LMD de SQL incluye lenguajes de consultas basado tanto en
+            álgebra relacional como en cálculo relacional de tuplas.Integridad: El LDD de SQL incluye comandos para
+            especificar las restricciones de integridad que deben cumplir los datos almacenados en la base de datos.
+            Definición de vistas: El LDD incluye comandos para definir las vistas. Control de transacciones: SQL tiene
+            comandos para especificar el comienzo y el final de una transacción.</p>
+          <blockquote class="blockquote">Sofia J. Vallejos. (2009). Sistemas de BD en Dispositivos Móviles y su
+            Integración con las BD Tradicionales. Corrientes - Argentina: RA-MA.</blockquote>
 
 
           <h2 class="section-heading">1.4 Caso practico.</h2>
@@ -150,17 +220,59 @@
           <a href="">
             <img class="img-fluid" src="src/final.png" alt="">
           </a>
-          <p>Lo primero que haremos es agregar las dependencias en el <i>"pubspec.yaml"</i> las dependencias son:</p> 
+          <p>Lo primero que haremos es agregar las dependencias en el <i>"pubspec.yaml"</i> las dependencias son:</p>
           <p><b>sqflite: ^1.3.0</b> </p>
           <p><b>proveedor_ruta: ^1.6.16</b> </p>
-          <p>Lo que sigue es crear un nuevo documento en la carpeta de <i>"lib"</i> de nuestro proyecto y le llamaremos <i>"database_helper.dart"</i> </p>
-          <a >
+          <p>Lo que sigue es crear un nuevo documento en la carpeta de <i>"lib"</i> de nuestro proyecto y le llamaremos
+            <i>"database_helper.dart"</i> </p>
+          <a>
             <img class="img-fluid" src="src/1.png" alt="">
           </a>
-          <p>Haz de esto una clase singleton <i>"un singleton es una instancia única es un patrón de diseño que permite restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto"</i></p>
+          <p>Haz de esto una clase singleton <i>"un singleton es una instancia única es un patrón de diseño que permite
+              restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto"</i>
+          </p>
+          <a>
+            <img class="img-fluid" src="src/2.png" alt="">
+          </a>
+          <p>Solo tiene una única referencia a la base de datos en toda la aplicación</p>
+          <a>
+            <img class="img-fluid" src="src/3.png" alt="">
+          </a>
+          <p>Esto abre la base de datos (y la crea si no existe)</p>
+          <a>
+            <img class="img-fluid" src="src/4.png" alt="">
+          </a>
+          <p>Insertaremos este código SQL para crear la tabla de la base de datos</p>
+          <a>
+            <img class="img-fluid" src="src/5.png" alt="">
+          </a>
+          <p>Inserta una fila en la base de datos donde cada clave en el mapa es un nombre de columna
+            y el valor es el valor de la columna. El valor de retorno es el id del
+            fila insertada.</p>
+          <a>
+            <img class="img-fluid" src="src/6.png" alt="">
+          </a>
+          <p>Todas las filas se devuelven como una lista de mapas, donde cada mapa es
+            una lista de columnas de valores clave.</p>
+          <a>
+            <img class="img-fluid" src="src/7.png" alt="">
+          </a>
+          <p>Todos los métodos (insertar, consultar, actualizar, eliminar) también se pueden hacer usando
+            comandos SQL sin procesar. Este método utiliza una consulta sin procesar para dar el recuento de filas.</p>
+          <a>
+            <img class="img-fluid" src="src/8.png" alt="">
+          </a>
+          <p>Suponemos aquí que la columna id en el mapa está configurada. El otro
+            los valores de las columnas se utilizarán para actualizar la fila.</p>
+            <a>
+              <img class="img-fluid" src="src/9.png" alt="">
+            </a>
+            <p>Elimina la fila especificada por el id. El número de filas afectadas es
+              regresó. Debe ser 1 siempre que exista la fila.</p>
+              <a>
+                <img class="img-fluid" src="src/10.png" alt="">
+              </a>
 
-
-          
         </div>
       </div>
     </div>
@@ -199,7 +311,8 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Uriel Gonzalez Sanchez, Victor Armando Castillo Moreno, Bryan de Jesus Zavala Fanny, Juam Jose Martinez Medina 2020</p>
+          <p class="copyright text-muted">Copyright &copy; Uriel Gonzalez Sanchez, Victor Armando Castillo Moreno, Bryan
+            de Jesus Zavala Fanny, Juam Jose Martinez Medina 2020</p>
         </div>
       </div>
     </div>
